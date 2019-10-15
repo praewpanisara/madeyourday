@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'Quicksand', sans-serif;
+    src: url("../fonts/Quicksand/static/Quicksand-Regular.ttf");
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+    
+}
+.bg{
+    display: flex;
+    height: 800px;
+}
+.bg-animal img{
+    width: 780px;
+    height: 800px;
+}
+.login-side {
+    background-color: #ffffff;
+    width: 720px;
+    height: 800px;
+}
+.login-logo-home{
+    width: 112px;
+    height: 152px;
+    margin: 76px auto 40px;
+}
+.login-info{
+    width: 322px;
+    height: 216px;
+    margin: auto;
+}
+.input-u-p{
+    width: 288px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #00000015;
+    margin: 8px 0px 16px;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: #000000;
+}
+.login{
+    width: 322px;
+    height: 40px;
+    background-color: #DB7E58;
+    color: #FAE9D6;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    font-weight:bold;
+    font-size: 16px; 
+}
+.title-login{
+    font-weight: bold;
+    font-size: 16px;
+    color: #00000065;
+}
+.clear-box{
+    width: 520px;
+    height: 160px;
+    position: absolute;
+    top: 128px;
+    left: 80px;
+
+}
+.welcome{
+    font-size: 55px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.lorem{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 16px;
+
+}
